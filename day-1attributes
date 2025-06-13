@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes</title>
+</head>
+<body>
+    <!---here aling can be used as center,right ,left to move the subject-->
+    <h1 align="center">ATTRIBUTES</h1>
+
+    <!--here justify alings the text evenly across the space-->
+    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatibus accusamus illo quia nobis aliquid dolores maiores aliquam? Tenetur voluptate sit explicabo
+     <!---here span is to creat a small block like selecting few words-->   
+    .<span style="color:purple"> Similique laudantium,</span> sint autem nemo amet non mollitia?</p>
+</body>
+</html>
