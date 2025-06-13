@@ -1,0 +1,86 @@
+ <!---this tag tells the browser that this is a html file-->
+ <!DOCTYPE html>
+   
+ <!---here html is a tag lang is a tribute and en is a value and this tag defines the language of the file-->
+<html lang="en">
+   
+<head>
+    <!-- the type of characters thiat we are using UFT means Unicode Transformation Format so it hepls computer understand ans share text from any language -->
+    <meta charset="UTF-8">
+    
+     <!--Tells the browser to scale the content based on to screen size-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--this is the title on the browser tab and search engines ( should not be more than 70 characters)-->
+    <title>Home page</title>
+    
+     <!--Description of the page (should not be 160 characters )-->
+     <meta name="description" content="description of the web page">
+   
+     
+     <!--This meta is used for instruction for search engines(index,follow means searchable or noindex,nofollow means non searchable)-->
+     <meta name="robots" content="index,follow">
+    
+   
+    <!--these are optional meta tag-->
+    <meta name="author" content="nadia sultana">
+    <meta name="generator" content="visual studio code">
+    
+    <!---Keyword this one dose not use anymore-->
+    <meta name="keyword" content=" development,webpage,class">
+    
+    <!---imeage type favico with png extension -->
+    <link rel="icon" type="image/png" size="32x32" href="image/neture.png">
+    
+</head>
+<body>
+    <!--the bigest title-->
+    <!---center is used to bring subject in the center-->
+    <center><h1>Text type <mark>tag</mark> </h1></center>
+    <h2>Subtitle</h2>
+    <h3>title of paragraph</h3>
+    <h4>Title of subparagraph</h4>
+    <h5>Title of a section of paragraph</h5>
+    <!--The smallest title-->
+    <h6>Mini title</h6>
+    
+<!--Paragraph tag-->
+<p> 
+    dolor sit amet consectetur adipisicing elit.<strong>Lorem ipsum</strong>, Nisi molestiae veniam 
+     accusamus ad doloremque perspiciatis at similique ullam ipsum? Maxime fugit corporis numquam aperiam! Odit accusamus iure quibusdam autem consequuntur.
+</p> 
+
+<!--hr creats lines on the screen,br and hr have no closing tag-->
+<hr>
+   
+<!--adress tag-->
+<address>
+    Via Fransesco valori 2 
+
+<!---br wraps a line-->
+<br>
+    florence 50100
+</address>
+
+<!---Citation tag-->
+<blockquote>
+    Indented paragraph.Useful for citations
+</blockquote>
+
+<!--Block to insert typewritten content-->
+<code>
+    Text to insert a copyright or code content 
+</code>
+
+<!--text scrolling horizontally while mark highlights text in yellow-->
+<marquee> 
+    Scrolling
+    <mark>
+        <strong>Text</strong>
+    </mark> 
+</marquee>
+
+
+    
+</body>
+</html>
