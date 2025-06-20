@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link tag</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet consectetur">
+</head>
+<body>
+    <h1>Link tag</h1>
+<!--bookmark top of the page-->
+
+    <a name="top">top here</a> <br>
+
+<!--link we nwely created bookmark using href="#+ bookmark name"
+if we wanted to creat a link to another page we indicate the position and the bookmark of the other page at href="anothepage.html+#+bookmark name"-->
+
+  <a href="#bottom">Go to the bottom of page</a><br>
+  <a href="index.html#giu">inder page bottom</a>
+
+
+<!--link between contents (internal) the href attribute is mandatory and you enter the path of file in the root folder and we can also add a targer attribute that admits the following values self(link open inn the same page ),new(link opens in a new window,if the broswer has set the opening of windows,in tabs it will open in a new tab)there is also blank (attribute it opens a new tab) -->
+
+    <p>Lorem ipsum <a href="index.html" target="new">dolor sit amet consectetur</a>, adipisicing elit. Distinctio ad temporibus aut corporis ex ab eum non. Reiciendis inventore nulla, provident dolores a fugiat autem facilis dolore minus, pariatur distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima praesentium assumenda est ratione, quia, asperiores, culpa iste deleniti dicta maiores iusto. Tempora porro quia accusamus laborum! Repellat, fugiat laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, doloremque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. A consequuntur quos magnam, molestias non quam provident. Beatae quibusdam qui quis eos! Illo aliquid quasi eaque consequuntur corrupti! Officiis, obcaecati harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facere laborum obcaecati est recusandae natus, sit veniam provident aliquam perspiciatis numquam rerum esse explicabo exercitationem omnis enim officiis illo dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eius. At voluptate suscipit veniam, dolorum assumenda maxime veritatis iste voluptates sit eius quod? Sapiente distinctio non veritatis fuga quae cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quas expedita officiis facere dignissimos ea, similique iusto eius vel aperiam enim sunt molestias, architecto at odio hic vitae? Laudantium, perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, recusandae. Facilis, mollitia perspiciatis ipsa eveniet porro doloribus? Quas ducimus dolores rem. Unde id tempora porro, delectus quod explicabo inventore dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptates odio veritatis distinctio vel, quisquam ratione voluptatem nam nihil sequi explicabo debitis optio expedita illum eum non neque. Eius, cupiditate? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium eveniet ullam recusandae id qui mollitia autem earum nulla, in doloremque numquam vel. Nobis dolor non optio voluptatibus doloremque a similique! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, libero numquam est nulla in ducimus provident alias. Aut aliquid quos rem modi consequuntur maiores aspernatur, quisquam amet eveniet cumque sunt? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem assumenda reiciendis tempore tenetur laborum nesciunt tempora vitae et accusantium consequuntur beatae, nobis quas harum totam vel. Praesentium sequi eius dolorem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, enim nemo ullam, quo possimus suscipit quasi corporis dolor odit placeat accusamus et ut repudiandae at odio sapiente perspiciatis, libero quam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla esse exercitationem quisquam aliquam, laboriosam quidem expedita reprehenderit ad illo est iure alias adipisci sit. Aspernatur vel facilis maiores laudantium dolore.</p>
+    <a href="image/neture.png" target="_blank"><button>Click here</button></a>
+
+    <hr>
+
+<!--external links to the site wherethe entire path of a content is inserted startingfrom the http or https protocol and for SCO we add a rel attritbute to the link that can indicate the following values:ugc(user generated contant),sponsored(link to a sponsorship),dofollow(teels the search engine to index the content of the link),nofollow(we tell the search engine to leave out the content of the link)-->  
+
+    <p>Lorem ipsum <a href="https://it.wikipedia.org/wiki/Bangladesh" rel="nofollow">dolor sit amet</a> consectetur adipisicing elit. Possimus ex unde, architecto aspernatur ducimus sequi harum temporibus corrupti, omnis asperiores nemo veniam enim similique et expedita dolorum minima dolores eos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus officiis modi nulla, praesentium debitis, atque ullam blanditiis, culpa sint qui earum quidem error iusto autem aliquid voluptate iure corrupti. Officiis.</p>
+    <hr>
+
+<!--link to an email address if we want the link to also pre-populate the subject of the massage we add to the email nadiasultananisu12@gmail.com?subject=inquiry-->
+
+    <p>Lorem ipsum<a href="mailto:nadiasultananisu12@gmail.com">Mail</a> dolor sit, amet consectetur adipisicing elit. Mollitia dicta odio eos nisi harum suscipit itaque, veniam debitis aliquid, maxime quidem. Mollitia, odio dignissimos. Quasi rerum placeat iure inventore Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt beatae error earum nostrum itaque praesentium fuga dignissimos accusantium. Est soluta eos dignissimos natus quia. Repudiandae fugiat asperiores suscipit dolores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam officiis? Cum ea cupiditate natus ad distinctio unde neque ab nobis est? Doloribus sit ullam cumque eum temporibus repellat enim.</p>
+    <hr>
+
+   <!--links to an telephone number insert tel:followed by the phone number without any speace including internationl prefix -->
+
+    <p>Lorem ipsum<a href="tel:+39333122429">Call
+    </a> dolor sit amet consectetur adipisicing elit. Impedit, tempora fuga cupiditate illum maxime, voluptas consectetur quasi nihil debitis, ipsum officiis explicabo? Nostrum laboriosam consequatur, natus nam dicta eum. Beataelorem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio deleniti nemo alias excepturi corrupti voluptatibus quidem, ducimus, tempora aspernatur molestiae sed perspiciatis fuga atque laboriosam illum animi similique fugiat! Nihil. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor doloremque culpa esse excepturi dolores provident, atque nesciunt harum tempora quo laborum dignissimos saepe nulla quas nobis corrupti dolorem modi officiis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, ea quas expedita, temporibus, aliquid tempora quibusdam eaque quidem assumenda et natus delectus laborum? Nihil, quam laborum dolorum porro reiciendis voluptates.</p>
+
+    <hr>
+
+<!---link the whatsapp messaging https://wa.me/number including dailling code with out the zero https://we.me/3334122419?  text=the%20contact%20%from%20site courtesy when opeing the chat-->
+
+    <p>Lorem, ipsum <a href="https://wa.me/3334122429">Whats app</a>dolor sit amet consectetur adipisicing elit. Perspiciatis, expedita repellat. Architecto ducimus iste, accusantium nam libero quam beatae esse maxime omnis! Porro sunt accusantium odio ducimus corrupti veniam consequuntur.</p>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum enim consectetur blanditiis eaque labore quo libero, molestiae inventore delectus accusamus assumenda natus nisi. Quae, illo? Natus consequuntur dolore odit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, soluta aliquam! Facilis molestias quo omnis deleniti, voluptatum nam? Eligendi eius dignissimos maxime minima atque aut quasi tempore necessitatibus vitae ipsum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid hic sit molestiae explicabo deleniti iusto, quas facilis numquam unde, dolore consequuntur inventore! Itaque sapiente eius laudantium suscipit laborum, officiis Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere est nam laudantium non iure. Quas est quia voluptate, facilis incidunt mollitia facere excepturi odit reprehenderit illo commodi molestiae provident rerum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum deleniti suscipit illum incidunt eligendi? Illum pariatur atque, perspiciatis perferendis omnis sapiente ea rerum doloribus, tempore nam, harum maxime minima error! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quod nulla quas sit eum minima accusamus veniam ea recusandae, pariatur unde cupiditate quidem. Facere similique, illo nulla voluptatibus laudantium a.</p>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, aspernatur distinctio voluptatem rerum inventore perferendis harum recusandae culpa dicta repellendus asperiores tenetur quaerat id delectus aperiam suscipit rem soluta qui?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur earum doloribus ipsa libero ex. Beatae molestiae amet aut impedit, recusandae ratione possimus dolorem dolores, in doloremque deleniti. Reprehenderit, fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officiis cum quis illum corporis labore deserunt ipsum veritatis dolores, ut quidem voluptatum, laboriosam inventore fugit veniam ea repudiandae, blanditiis enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto corporis non doloribus, sequi vero deleniti nihil molestias eligendi maxime quia sit harum rerum corrupti sed ut, culpa ipsam? Impedit!</p>
+
+<!--Creating bookmark link (first we insert bookmark with an attribute name="bookmark name")-->
+    <a name="bottom">Bottom here</a>
+    <!--bottom bookmark-->
+    
+</body>
+</html>
