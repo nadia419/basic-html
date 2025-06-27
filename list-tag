@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists</title>
+
+</head>
+<body>
+
+<!--block list of bulleted texts-->
+<ul>
+<!--list item inside the unordered list to make it a link add <a href>tag-->       
+        <a href="#"><li>rome</li></a>
+        <li>milan</li>
+        <li>venice</li>
+        <li>napels</li>
+<!--second level-->
+    <ul>
+         <li>city1</li>
+        <li>city2</li>
+<!--third level-->        
+          <ul>
+
+              <li>city1</li>
+              <li>city2</li>
+          </ul>
+    </ul>
+       
+ </ul>
+
+<!--numbered block list-->
+    <ol>
+<!--list item il inside numbered list-->
+        <li>rome</li>
+<!--second level-->   
+    <ul>
+        <li>city1</li>
+        <li>city2</li>
+
+    </ul>
+        <li>milan</li>
+<!--third level-->  
+    <ol>
+        <li>city3</li>
+        <li>city4</li>
+    </ol>   
+        <li>venice</li>
+        <a href="#"><button><li>napels</li></button></a>
+   </ol>
+
+    
+</body>
+</html>
