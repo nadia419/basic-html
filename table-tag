@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <h1> Table tags</h1>
+    <caption>HTML TABLE</caption>
+<!--table block-->
+    <table width="100%">
+<!---table head-->
+<!--bgcolor is a new html tag for color-->
+         <thead bgcolor="pink">
+<!--every colom has to have a row which is tr-->
+            <tr>
+                <th>Name</th><th>City</th>
+
+            </tr>
+
+         </thead>
+<!--table body-->
+         <tbody bgcolor="green">
+            <tr>
+                <td>nadia</td><td>bangladesh</td>
+
+            </tr>
+            <tr>
+                <td>ria</td><td>nepal</td>
+
+            </tr>
+
+         </tbody>
+<!--table foot-->
+         <tfoot bgcolor="orange">
+            <tr>
+                <td align="center">nadia\ria</td><td align="center">bangladesh\nepal</td>
+
+
+            </tr>
+
+         </tfoot>
+   </table>
+    
+</body>
+</html>
