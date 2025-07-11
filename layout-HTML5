@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout HTML5</title>
+    <style>
+/* 0px reset the page in full width*/
+        body{
+            padding: 0px;
+        }
+/* to activate intrinsic properties we use the activation padding property (value 1px) */
+        header{
+            background-color:purple;
+            padding: 1px;
+        }
+
+        nav{
+            background-color:palevioletred;
+             padding: 1px;
+        }
+        main{
+            background-color: pink;
+            height: 600px;
+            width: 100%;
+            padding: 1px;
+        }
+        
+        section{
+            background-color: rgb(240, 126, 84);
+            height:150px;
+             padding: 1px;
+        }
+
+        article{
+            background-color: skyblue;
+             padding: 1px;
+        }
+
+        aside{
+            background-color: red;
+             padding: 1px;
+             color: white;
+        }
+
+        footer{
+            background-color: brown;
+            color: white;
+             padding: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<!--tag html to indicate the header-->
+    <header>
+<h1>HEAD</h1>
+
+    </header>
+
+<!--navigation block-->
+    <nav>
+        <ul>
+            <li>Home</li>
+         </ul>
+    </nav>
+
+<!--body of the page-->
+    <main>
+ <!--section of the page-->       
+        <section>
+
+        </section>
+
+        <section>
+ <!--A section can host a block called article-->           
+           <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ab praesentium laboriosam excepturi, deleniti molestiae iusto magni aperiam consectetur debitis, quaerat doloremque obcaecati. Numquam, nihil distinctio dolore dolor omnis magnam.</p>
+
+            </article>
+<!--column or section below the article-->
+            <aside>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, adipisci saepe eum sapiente architecto iure facilis optio voluptatibus omnis alias dolorum eveniet dignissimos quaerat dicta cupiditate beatae, nihil consectetur similique?</p>
+
+            </aside>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>by lay out</p>
+
+    </footer>
+
+</body>
+</html>
